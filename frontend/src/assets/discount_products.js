@@ -1,0 +1,68 @@
+const DiscountProducts = [
+    {
+        id: 9,
+        img: 'https://product.hstatic.net/200000037048/product/chuchu_linh_lan_55242df4c02442ec85cbda793dfd4a76_master.jpg',
+        name: 'Áo Chuchu Linh Lan',
+        category: 'ao' ,
+        newPrice: '690,000đ',
+        oldPrice: '999,000đ',
+    },
+    {
+        id: 10,
+        img: 'https://product.hstatic.net/200000037048/product/chuchu_linh_lan_55242df4c02442ec85cbda793dfd4a76_master.jpg',
+        name: 'Áo Chuchu Linh Lan',
+        category: 'ao' ,
+        newPrice: '690,000đ',
+        oldPrice: '999,000đ',
+    },
+    {
+        id: 11,
+        img: 'https://product.hstatic.net/200000037048/product/chuchu_linh_lan_55242df4c02442ec85cbda793dfd4a76_master.jpg',
+        name: 'Áo Chuchu Linh Lan',
+        category: 'ao' ,
+        newPrice: '690,000đ',
+        oldPrice: '999,000đ',
+    },
+    {
+        id: 12,
+        img: 'https://product.hstatic.net/200000037048/product/chuchu_linh_lan_55242df4c02442ec85cbda793dfd4a76_master.jpg',
+        name: 'Áo Chuchu Linh Lan',
+        category: 'ao' ,
+        newPrice: '690,000đ',
+        oldPrice: '999,000đ',
+    },
+    {
+        id: 13,
+        img: 'https://product.hstatic.net/200000037048/product/chuchu_linh_lan_55242df4c02442ec85cbda793dfd4a76_master.jpg',
+        name: 'Áo Chuchu Linh Lan',
+        category: 'ao' ,
+        newPrice: '690,000đ',
+        oldPrice: '999,000đ',
+    },
+    {
+        id: 14,
+        img: 'https://product.hstatic.net/200000037048/product/chuchu_linh_lan_55242df4c02442ec85cbda793dfd4a76_master.jpg',
+        name: 'Áo Chuchu Linh Lan',
+        category: 'ao' ,
+        newPrice: '690,000đ',
+        oldPrice: '999,000đ',
+    },
+    {
+        id: 15,
+        img: 'https://product.hstatic.net/200000037048/product/chuchu_linh_lan_55242df4c02442ec85cbda793dfd4a76_master.jpg',
+        name: 'Áo Chuchu Linh Lan',
+        category: 'ao' ,
+        newPrice: '690,000đ',
+        oldPrice: '999,000đ',
+    },
+    {
+        id: 16,
+        img: 'https://product.hstatic.net/200000037048/product/chuchu_linh_lan_55242df4c02442ec85cbda793dfd4a76_master.jpg',
+        name: 'Áo Chuchu Linh Lan',
+        category: 'ao' ,
+        newPrice: '690,000đ',
+        oldPrice: '999,000đ',
+    },
+];
+
+export default DiscountProducts;

@@ -1,0 +1,11 @@
+.wrapper {
+    min-height: calc(100vh - var(--admin-top-bar-height));
+    padding: 16px 30px;
+    background-color: #fff;
+    position: relative;
+}
+
+.title {
+    font-size: 2.4rem;
+    margin-bottom: 30px;
+}

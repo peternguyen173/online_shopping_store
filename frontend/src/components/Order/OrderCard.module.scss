@@ -1,0 +1,35 @@
+.wrapper {
+    padding: 1.25rem; /* 20px */
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease; /* Add hover transition */
+    border: 1px solid rgba(0, 0, 0, 0.2); /* Add border */
+  }
+  
+  .wrapper:hover {
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25); /* Hover shadow */
+  }
+  .orderCard {
+    display: flex;
+    cursor: pointer;
+    img {
+        height: 50px;
+    }
+  }
+  .item {
+    margin-left: 1.25rem;
+  }
+  .item-title {
+    margin-bottom: 0.5rem;
+  }
+  .item-size {
+    opacity: 0.5;
+    font-size: 0.75rem; /* 12px */
+    font-weight: 600;
+    gap: 1.25rem; /* 20px */
+  }
+  .icon-status {
+    color: #28a745; /* Green color */
+    padding: 0;
+    margin-right: 0.5rem; /* 8px */
+    font-size: 0.875rem; /* 14px */
+  }

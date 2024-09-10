@@ -1,0 +1,117 @@
+.login-form {
+    max-width: 420px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+  }
+  
+  .login-form h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #C69774;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    -webkit-transition: 1s; /* Safari */
+     transition: 1s;
+    
+  }
+  
+  .form-group input:focus {
+    outline: none;
+    border-color: #999;
+  }
+  .form-group input[type=text]:hover{
+    box-shadow: 0 0 5pt 0.5pt #D3D3D3;
+  }
+  .form-group input[type=text]:focus {
+    box-shadow: 0 0 5pt 2pt #D3D3D3;
+    outline-width: 0px;
+  }
+  .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+  }
+  .remember-forgot a{
+    color: #B28665;
+  }
+  .remember-forgot a:hover {
+    text-decoration: underline;
+  }
+  
+  .btn {
+    width: 100%;
+    height: 45px;
+    margin-top: 20px;
+    background-color: #B28665;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+
+  }
+  
+  .btn:hover {
+    background-color: #B28665;
+  }
+  .btn-google {
+        width: 100%;
+        height: 45px;
+        margin-top: 20px;
+        padding: 10px 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+  }
+  .logo {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .register-link{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14.5px;
+}
+.register-link p a{
+    color: #B28665;
+}
+
+  
+  .login-terms {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .login-terms p {
+    font-size: 11px;
+    color: #666;
+  }
+  

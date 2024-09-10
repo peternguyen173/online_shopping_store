@@ -1,0 +1,38 @@
+.wrapper {
+    width: 280px;
+    background-color: #2f4050;
+}
+
+.sideBar-item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 16px 0;
+    // border: 1px solid #000;
+    color: #fff;
+
+    &:hover {
+        background-color: #293846;
+    }
+}
+.sideBar-item-icon {
+    flex: 20%;
+    display: grid;
+    place-items: center;
+    font-size: 1.6rem;
+}
+
+.sideBar-item-title {
+    flex: 80%;
+    font-size: 1.4rem;
+}
+
+.active {
+    background-color: #293846;
+    color: #ADEECF;
+}
+
+.container {
+    padding-left: 0;
+}

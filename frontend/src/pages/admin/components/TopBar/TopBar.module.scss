@@ -1,0 +1,33 @@
+.wrapper {
+    width: 100%;
+    height: var(--admin-top-bar-height);
+    background-color: #2f4050;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 40px;
+}
+
+.logo {
+    font-family: 'Protest Guerrilla', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.4rem;
+    color: yellow;
+}
+
+.search {
+    color: #fff;
+}
+
+.action {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #fff;
+}
+
+.title {
+    font-size: 1.8rem;
+    margin-bottom: 0;
+}

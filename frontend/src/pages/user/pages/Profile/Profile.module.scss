@@ -1,0 +1,18 @@
+.wrapper {
+    height: 100vh;
+    background-color: #f1f1f1;
+    display: flex;
+}
+
+.container {
+    width: 100%;
+    min-height: calc(100vh - 60px);
+    display: flex;
+    align-items: flex-start;
+}
+.profile-main {
+    width: 100%;
+    height: 100%;
+    flex: 1;
+    background-color: #fff;
+}

@@ -1,0 +1,137 @@
+@import '../Com.scss';
+
+.non-selected {
+    padding: 0;
+    margin: auto auto;
+    color: #858080;
+}
+
+.chat-box {
+    display: grid;
+    grid-template-rows: 1fr 1px 9fr;
+    background-color: #fff;
+
+    &-header {
+        display: flex;
+        padding: 5px;
+        font-size: 20px;
+        align-items: center;
+
+        img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 15px;
+        }
+    }
+
+    &-display {
+        margin-top: 10px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    &-messages {
+        height: 80%;
+        overflow-y: auto;
+        max-height: 440px;
+        scrollbar-width: thin;
+
+        &::-webkit-scrollbar {
+            width: 0px;
+        }
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            list-style: none;
+        }
+
+        .sender {
+            align-self: flex-end;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            margin-bottom: 10px;
+
+            // margin-right: 10px;
+            p {
+                padding: 6px 12px;
+                background-color: #3498db;
+                color: #fff;
+                border-radius: 5px;
+                max-width: 400px;
+                word-wrap: break-word;
+                line-height: 1.5;
+            }
+        }
+
+        .receiver {
+            align-self: flex-start;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-bottom: 10px;
+
+            p {
+                padding: 6px 12px;
+                background-color: #ecf0f1;
+                color: #333;
+                border-radius: 5px;
+                max-width: 400px;
+                word-wrap: break-word;
+                line-height: 1.5;
+            }
+        }
+    }
+
+    &-input {
+        display: flex;
+        border: 2px solid #ccc;
+        padding: 5px;
+        border-radius: 1.5rem;
+        transition: $smooth;
+        &:focus-within {
+            border-color: #000;
+        }
+        input {
+            width: 100%;
+            border: none;
+            background-color: white;
+            font-size: 1.6rem;
+            padding: 1rem;
+            font-family: $primary-font;
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+}
+
+.seperator-row {
+    background-color: white;
+    width: 100%;
+}
+.chat {
+    &-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        border: none;
+        padding: 0.5rem;
+        border-radius: 50%;
+        padding: 1rem;
+        transition: $smooth;
+        background-color: transparent;
+        &:hover {
+            background-color: #eee;
+        }
+    }
+}
+.send-icon {
+    color: $primary-color;
+    font-size: 2rem;
+}

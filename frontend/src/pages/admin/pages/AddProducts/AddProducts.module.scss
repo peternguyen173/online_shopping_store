@@ -1,0 +1,135 @@
+.wrapper {
+    min-height: calc(100vh - var(--admin-top-bar-height));
+    padding: 16px 30px 40px;
+    background-color: #fff;
+    position: relative;
+}
+
+.title {
+    font-size: 2.4rem;
+    margin-bottom: 30px;
+}
+
+.container {
+    width: 100%;
+    padding: 0;
+}
+
+.input-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.input-section {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    flex: 1;
+    // max-width: 900px;
+}
+
+.input-row {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 20% 80%;
+    min-height: 42px;
+
+    input,
+    textarea {
+        max-width: 500px;
+    }
+}
+
+.input-thumbnail {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    .image-item {
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+}
+
+.input-label {
+    font-weight: 500;
+}
+
+.color-image-input-wrapper {
+    position: relative;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    align-items: center;
+}
+
+.input-image {
+    // position: absolute;
+    // left: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+
+    .input-image-display {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .image-item {
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+}
+
+.main-input {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.color-picker {
+    width: 42px;
+}
+.add-image-btn {
+    border: 1px solid #ccc;
+    padding: 8px 10px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.add-color-btn {
+    width: 60px;
+}
+
+.main-input-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.input-image-display {
+    flex-wrap: wrap;
+}
+
+.image-item-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.add-product-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}

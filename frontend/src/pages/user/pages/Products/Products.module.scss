@@ -1,0 +1,41 @@
+.wrapper {
+    background-color: #ccc;
+    padding: 50px 150px;
+    min-height: 60vh;
+}
+.cate-filter {
+    display: flex;
+}
+.filter {
+    position: relative;
+    right: 30px;
+}
+
+.category {
+    width: 30%;
+}
+.category p {
+    font-size: 18px;
+    font-weight: bold;
+}
+.category-detail {
+    margin-top: 10px;
+    display: flex; // Change this line
+    justify-content: space-between;
+}
+
+.category-nav {
+    margin: 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eddacb;
+    padding: 10px;
+    flex: 1; // Add this line
+    min-width: max-content; // Add this line
+}
+
+.category-nav-active {
+    background-color: #a87b5a;
+    color: #fff;
+}

@@ -1,0 +1,67 @@
+.wrapper {
+    padding-left: 0.5rem; /* 10px */
+    padding-right: 0.5rem; /* 10px */
+    margin-top: 5rem; /* 35px */
+  }
+  .address {
+    font-weight: 700;
+    font-size: 1.125rem; /* 18px */
+    padding-top: 0.5rem; /* 10px */
+    padding-bottom: 0.5rem; /* 10px */
+  }
+  .stepContainer {
+    padding: 1.25rem; /* 20px */
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+    border: 1px solid #e0e0e0;
+    border-radius: 0.625rem; /* 10px */
+  }
+  .containerOrderItem {
+    display: flex;
+    margin: 40px 0;
+    justify-content: center;
+  }
+  .cardOrder {
+    width: 80% !important;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 0.625rem;
+    padding: 1.25rem;
+    border: 1px solid #e0e0e0;
+    margin-bottom: 2rem !important;
+  }
+  .cardItem {
+    display: flex;
+    align-items: center;
+    img {
+        height: 12.5rem;
+        
+    }
+  }
+  
+  .cardImg {
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+    object-position: top;
+  }
+  
+  .box-rate {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  .star-icon {
+    padding-left: 0.5rem; /* 10px */
+    padding-right: 0.5rem; /* 10px */
+    font-size: 3rem; /* 48px */
+  }
+  .cardContent {
+    margin-left: 1.25rem; /* 20px */
+    margin-top: 0.5rem; /* 10px */
+    margin-bottom: 0.5rem; /* 10px */
+  }
+  .cardText {
+    opacity: 0.5;
+    font-size: 0.75rem; /* 12px */
+    font-weight: 600;
+    margin-right: 1.25rem; /* 20px */
+  }
